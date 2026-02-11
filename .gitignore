@@ -6,3 +6,13 @@ output/
 .ipynb_checkpoints/
 .DS_Store
 .vscode/
+
+# Allow autograder outputs
+!output/
+!output/part1_results.json
+!output/part2_cv_results.csv
+!output/part2_test_results.csv
+!output/part3_cv_results.csv
+!output/part3_test_results.csv
+!output/part3_roc_curves.png
+!output/part3_confusion_matrix.png
